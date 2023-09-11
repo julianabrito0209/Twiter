@@ -1,0 +1,34 @@
+/* media = (em qual elemento será exibido: tela ou impressão) and (condição)   */
+
+/* @media screen and (max-width : 700px){
+    
+    
+} */
+/* plug in Quick Media para ajudar na responsividade do @media  */
+
+#menu, #topics, #headerTittle{
+    display: none
+}
+#feed{
+    width: 100%}
+
+ header{
+      justify-content: space-between;
+    }
+
+#searchBar{
+    width: 150px;
+    margin: 0px;
+}
+
+#navMobile{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(14, 13, 13);
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+/* position absolut vai deixar fixo aparecendo na tela // e é bom colocar o left para evitar BUG*/
